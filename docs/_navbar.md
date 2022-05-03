@@ -1,0 +1,4 @@
+- Themes
+  - <a href="#" data-link-title="Dark">Dark</a>
+  - <a href="#" data-link-title="Light">Light</a>
+  - <a href="#" data-link-href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/pure.css">Pure</a>

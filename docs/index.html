@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover"
+    />
+    <meta name="description" content="Learning Notes - Difranca" />
+    <title>Learning Notes - Difranca</title>
+
+    <!-- Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css"
+      title="Dark"
+    />
+    <link rel="stylesheet" href="_assets/css/collapse.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css"
+    />
+
+    <!-- Alternate Stylesheets -->
+    <link
+      rel="stylesheet alternate"
+      href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"
+      title="Light"
+    />
+
+    <!-- PrismJS Themes -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/prismjs-themes/dist/coy.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/prism-github/prism-github.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/prismjs-themes/dist/midnight.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/prism-theme-one-dark/prism-onedark.css"
+    />
+
+    <!-- Customize Stylesheets -->
+    <link rel="stylesheet" href="_assets/css/custom.css" />
+  </head>
+
+  <body>
+    <div id="app"></div>
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
+    <script>
+      // Docsify
+      window.$docsify = {
+        // GENERAL
+        // -----------------------------------------------------------------
+        name: "Learning Notes",
+        repo: "https://github.com/difranca/learning-notes",
+        // coverpage  : '_coverpage.md',
+        homepage: "about/intro.md",
+        loadSidebar: "_sidebar.md",
+        loadNavbar: "_navbar.md",
+        logo: "_images/logo.png",
+
+        // NAVIGATION
+        // -----------------------------------------------------------------
+        // alias: {
+        //   //   ".*?/changelog":
+        //   //     "https://raw.githubusercontent.com/anuraghazra/github-readme-stats/master/readme.md",
+        // },
+        auto2top: true,
+        maxLevel: 1,
+        subMaxLevel: 2,
+        relativePath: false,
+
+        // PLUGINS
+        // -----------------------------------------------------------------
+        executeScript: true,
+        ga: "",
+        search: {
+          depth: 3,
+          noData: "No results!",
+          placeholder: "Search...",
+        },
+        themeable: {
+          readyTransition: true,
+          responsiveTables: true,
+        },
+        "flexible-alerts": {
+          style: "flat",
+        },
+        toc: {
+          scope: ".markdown-section",
+          headings: "h1, h2, h3, h4, h5, h6",
+          title: "Table of Contents",
+        },
+        plugins: [
+          EditOnGithubPlugin.create(
+            "https://github.com/difranca/learning-notes/docs/",
+            null,
+            "Edit on GitHub"
+          ),
+        ],
+      };
+    </script>
+
+    <script src="_assets/js/main.js"></script>
+    <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1/dist/docsify-tabs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2/dist/docsify-copy-code.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/external-script.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-hcl.min.js"></script>
+    <script src="_assets/js/collapse.js"></script>
+    <script src="https://unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script>
+    <script src="_assets/js/highlight.js"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+.SideBarCollapse-ItemClosed {
+  background-image: var(--sidebar-nav-pagelink-background-image);
+  background-position: var(--sidebar-nav-pagelink-background-position);
+  background-repeat: var(--sidebar-nav-pagelink-background-repeat);
+  background-size: var(--sidebar-nav-pagelink-background-size);
+  padding: var(--sidebar-nav-pagelink-padding, var(--sidebar-nav-link-padding));
+  margin: inherit;
+}
+
+.SideBarCollapse-ItemOpened {
+  background-image: var(
+    --sidebar-nav-pagelink-background-image--active,
+    var(
+      --sidebar-nav-pagelink-background-image--loaded,
+      var(--sidebar-nav-pagelink-background-image)
+    )
+  );
+  background-position: var(--sidebar-nav-pagelink-background-position);
+  background-repeat: var(--sidebar-nav-pagelink-background-repeat);
+  background-size: var(--sidebar-nav-pagelink-background-size);
+  padding: var(--sidebar-nav-pagelink-padding, var(--sidebar-nav-link-padding));
+  margin: inherit;
+}
+
+.m-fadeOut {
+  height: 0px;
+  transition: linear 1s, height 1s;
+}
+.m-fadeIn {
+  height: auto;
+  transition: linear 1s, opacity 1s;
+}
