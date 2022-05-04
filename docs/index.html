@@ -69,17 +69,18 @@
         name: "Learning Notes",
         repo: "https://github.com/difranca/learning-notes",
         // coverpage  : '_coverpage.md',
-        homepage: "about/intro.md",
+        // homepage: "about/intro.md",
         loadSidebar: "_sidebar.md",
         loadNavbar: "_navbar.md",
         logo: "_images/logo.png",
 
         // NAVIGATION
         // -----------------------------------------------------------------
-        // alias: {
-        //   //   ".*?/changelog":
-        //   //     "https://raw.githubusercontent.com/anuraghazra/github-readme-stats/master/readme.md",
-        // },
+        alias: {
+          "/.*/_navbar.md": "/_navbar.md",
+          "/.*/_sidebar.md": "/_sidebar.md",
+          "/": "/about/intro",
+        },
         auto2top: true,
         maxLevel: 1,
         subMaxLevel: 2,
