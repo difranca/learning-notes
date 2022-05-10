@@ -1,4 +1,10 @@
-# learning-notes
+# learning-notes [ARCHIVED]
+
+**This repository has been archived.**
+
+**Please visit [difranca.github.io](https://github.com/difranca/difranca.github.io) instead.**
+
+---
 
 This documentation aims to comprise my learning notes on various subjects.
 
